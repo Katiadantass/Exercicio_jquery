@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Definindo a fonte Roboto para todo o site */
+}
+
+/* Definindo o estilo de fundo e a cor do texto da página */
+body {
+    background-color: #f2f2f2; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo do cabeçalho fixo no topo da página */
+header {
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Faz com que o cabeçalho ocupe toda a largura */
+    background-color: #192a56; /* Cor de fundo escura para o cabeçalho */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0;
+    font-size: 18px;
+    z-index: 1000; /* Garante que o cabeçalho ficará sempre a cima de outros elementos */
+}
+
+/* Estilo para o título da seção do formulário */
+h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 16px; /* Espaço abaixo do título */
+}
+
+/* Container principal do formulário */
+.container {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 80px auto 30px; /* Centraliza o formulário e adiciona margens em cima e embaixo */
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff; /* Ccor de fundo do formulário */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave ao redor do formulário */
+}
+
+/* Estilo para cada campo do formulário */
+.form-campo {
+    margin-bottom: 20px; /* Espaço abaixo de cada campo */
+}
+
+/* Estilo para os rótulos do campos */
+.form-campo label {
+    display: block; /* Faz com que o label ocupe uma linha inteira */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-bottom: 5px; /* Espaço abaixo do label */
+}
+
+/* Estilo para os inputs dentro do formulário */
+.form-campo input {
+    width: 100%; /* Faz com que os inputs ocupem toda a largura do container */
+    padding: 10px; /* Espaçamento interno do input */
+    border: 1px solid #ccc; /* Borda suave */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+/* Estilo para o botão de envio */
+button {
+    background-color: #192a56; /* Cor de fundo do botão */ 
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Muda o cursor para uma mãozinha */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #004494; /* Cor mais clara ao passar o mouse */
+}
+
+/* Estilo para mensagens de erro (como validação de campos) */
+.error {
+    color: red; /* Cor usada para mensagens de erro */
+}
+
+/* Estilo para o rodapé da página */
+footer {
+    background-color: #192a56; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px 0; /* Espaçamento interno do rodapé */
+    margin-top: 30px; /* Espaçamento acima do rodapé */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura */
+    position: relative; /* Posicionamento relativo para o rodapé */
+    bottom: 0; /* Fixa o rodapé no fundo da página */
+}
+
+/* Estilo para links dentro do rodapé */
+footer a {
+    color: #fff; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Deixa o link em negrito */
+}
+
+/* Efeito ao passar o mouse sobre os links do rodapé */
+footer a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
